@@ -1,0 +1,12 @@
+.breadcrumb{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+
+.breadcrumb li{
+  display: inline;
+}
+li::after{
+  content:"/"
+}
